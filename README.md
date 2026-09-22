@@ -125,14 +125,47 @@ with **ElevenLabs**.
 
 None of this is glued together by hand each time. A fair amount of the
 project is its own tooling, purpose-built to move a generated or recorded
-asset straight into the game with nothing lost in translation: a recording
-booth that converts a take, imports it and writes its subtitle in one pass;
-a dashboard for building, testing and playing any branch without leaving the
-browser; a lighting-and-animation test yard for judging a clip or a look
-before it ships; importers that take ComfyUI's or Mixamo's raw output and
-place it, palette-corrected and levelled, straight into the game's own
-asset folders. Most of what is in this game arrived through one of those
-pipelines rather than by hand.
+asset straight into the game with nothing lost in translation:
+
+- **Voice Booth** -- records a line, sends it through Applio, and writes the
+  approved take straight into the game's audio folder with its subtitle, all
+  in one pass. One tab of it browses every recorded line by character; a
+  second draws whole conversations from the lines a character already has
+  and exports them as playable dialogue trees; a third auditions several
+  Applio voice models against one line before committing a character to one.
+- **Laben** -- a walled test yard with the whole cast standing in a row,
+  the town's own sun, lighting and palette pass, for judging one animation
+  clip or one light on one body without walking the street to find it.
+- **Control Room** -- a browser dashboard for building the game, running its
+  test suite, playing from any spot in the story, and the day-to-day git
+  work, all against a disposable worktree so testing a branch never touches
+  the checkout in progress.
+- A town generator that turns a Python description of every street parcel,
+  door, light and prop into the level geometry itself, and a matching set of
+  importers that take ComfyUI's or Mixamo's raw output and place it,
+  palette-corrected and levelled, straight into the game's own asset
+  folders -- textures, signs, props, character meshes, animation clips,
+  voice lines and subtitles alike.
+
+Most of what is in this game arrived through one of those pipelines rather
+than by hand.
+
+<table>
+<tr>
+<td width="55%"><img src="images/voice_booth.png" alt="The Voice Booth: character roster on the left, a line being recorded in the middle, Applio voice picker on the right"></td>
+<td width="45%"><img src="images/lab_idle.png" alt="Laben, the animation test yard: a character on the idle clip, the clip browser on the right"></td>
+</tr>
+<tr>
+<td align="center"><sub><i>Voice Booth -- the cast on the left, Applio's voices on the right.</i></sub></td>
+<td align="center"><sub><i>Laben, by day.</i></sub></td>
+</tr>
+</table>
+
+<div align="center">
+<img src="images/lab_night.png" width="500" alt="Laben at night, a character mid hand-raise clip">
+<br>
+<sub><i>Laben, by night -- the same test yard under the night sky.</i></sub>
+</div>
 
 <div align="center">
 
