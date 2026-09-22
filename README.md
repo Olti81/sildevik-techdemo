@@ -8,9 +8,9 @@
 
 <br>
 
-<img src="images/langgata_regn.png" width="820" alt="The title screen: Langgata at 2am, rain, the street empty">
+<img src="images/title_jog.png" width="820" alt="The title screen: a woman jogging down a leaf-strewn path at night, past a row of streetlamps">
 
-<sub><i>The title screen. Langgata, 02:00, rain.</i></sub>
+<sub><i>The title screen. One of several opening scenes, picked at random each run.</i></sub>
 
 </div>
 
@@ -65,12 +65,14 @@ not code-signed. Play is mouse only.
 
 <table>
 <tr>
-<td width="50%"><img src="images/sperringen.png" alt="The cordon at the south end of Langgata, in a thunderstorm"></td>
-<td width="50%"><img src="images/kirkeparken.png" alt="Kirkeparken at night"></td>
+<td width="33%"><img src="images/sperringen.png" alt="The cordon at the south end of Langgata, in a thunderstorm"></td>
+<td width="33%"><img src="images/kirkeparken.png" alt="Kirkeparken at night"></td>
+<td width="33%"><img src="images/langgata_regn.png" alt="Langgata at 2am, rain, the street empty"></td>
 </tr>
 <tr>
 <td align="center"><sub><i>The cordon, south end of Langgata. Thunderstorm.</i></sub></td>
 <td align="center"><sub><i>Kirkeparken, 23:30.</i></sub></td>
+<td align="center"><sub><i>Langgata, 02:00, rain.</i></sub></td>
 </tr>
 </table>
 
