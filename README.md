@@ -8,7 +8,7 @@
 
 <br>
 
-<img src="images/title_jog.png" width="820" alt="The title screen: a woman jogging down a leaf-strewn path at night, past a row of streetlamps">
+<img src="images/title_screen.png" width="820" alt="The title screen: SILDEVIK, a woman jogging down a leaf-strewn path at night, the menu on the left">
 
 <sub><i>The title screen. One of several opening scenes, picked at random each run.</i></sub>
 
